@@ -18,9 +18,9 @@ switch(where,
          .datadir = "/media/mha/Windows/OwnCloud/RUserGroup/data/"
          .workdir = '/home/hanel/KVHEM/Rusergroup/code/'
        },
-       'yannis' = {
-         .datadir = "/media/mha/Windows/OwnCloud/RUserGroup/data/"
-         .workdir = '/home/hanel/KVHEM/Rusergroup/code/'
+       'MARKONIS-PC-01' = {
+         .datadir = "/Home/sync/Shared/RUserGroup/data/"
+         .workdir = '/Home/R/Projects/hydrope/'
        }
 
 )

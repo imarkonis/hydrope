@@ -9,7 +9,7 @@ switch(where,
          .workdir = '/home/hanel/KVHEM/Rusergroup/code/'
        },
        'MARKONIS-PC-01' = {
-         .datadir = "/Home/sync/Shared/RUserGroup/data/"
+         .datadir = "C:/Users/markonis/Documents/sync/Shared/RUserGroup/data/"
          .workdir = '/Home/R/Projects/hydrope/'
        }
 )

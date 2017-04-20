@@ -28,3 +28,9 @@ switch(where,
 assign('.datadir', .datadir, envir = .GlobalEnv)
 assign('.workdir', .workdir, envir = .GlobalEnv)
 }
+
+.onLoad <- function(libname, pkgname) {
+  give_paths()
+  invisible()
+}
+

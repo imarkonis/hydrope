@@ -22,9 +22,14 @@ switch(where,
          .datadir = "C:/Users/markonis/Documents/sync/Shared/RUserGroup/data/"
          .workdir = '/Home/R/Projects/hydrope/'
        }
-
 )
 
 assign('.datadir', .datadir, envir = .GlobalEnv)
 assign('.workdir', .workdir, envir = .GlobalEnv)
 }
+
+.onLoad <- function(libname, pkgname) {
+  give_paths()
+  invisible()
+}
+
